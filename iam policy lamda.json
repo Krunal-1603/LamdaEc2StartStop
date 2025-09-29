@@ -11,7 +11,7 @@
                 "ec2:Stop*",
                 "ec2:DescribeInstanceStatus"
             ],
-            "Resource": ""
+            "Resource": "*"
         },
         {
             "Sid": "VisualEditor1",
@@ -21,7 +21,7 @@
                 "logs:CreateLogGroup",
                 "logs:PutLogEvents"
             ],
-            "Resource": "arn:aws:logs:::"
+            "Resource": "*"
         }
     ]
 }
